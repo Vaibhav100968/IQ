@@ -30,8 +30,8 @@ struct BottomNavView: View {
         }
         .background(
             Rectangle()
-                .fill(.regularMaterial)
-                .shadow(color: .black.opacity(0.06), radius: 12, y: -2)
+                .fill(Color.white)
+                .shadow(color: .black.opacity(0.08), radius: 8, y: -3)
                 .ignoresSafeArea(edges: .bottom)
         )
     }
@@ -54,11 +54,11 @@ struct BottomNavView: View {
             Image(systemName: tab.icon)
                 .font(.system(size: isSelected ? 22 : 20, weight: .semibold))
                 .symbolVariant(isSelected ? .fill : .none)
-                .foregroundColor(isSelected ? IQColors.pink : IQColors.lavender.opacity(0.85))
+                .foregroundColor(isSelected ? IQColors.pinkDark : Color.gray.opacity(0.55))
 
             Text(tab.title)
-                .font(.system(size: 10, weight: isSelected ? .semibold : .regular))
-                .foregroundColor(isSelected ? IQColors.pink : IQColors.lavender.opacity(0.75))
+                .font(.system(size: 10, weight: isSelected ? .bold : .medium))
+                .foregroundColor(isSelected ? IQColors.pinkDark : Color.gray.opacity(0.55))
         }
         .frame(maxWidth: .infinity)
         .scaleEffect(isSelected ? 1.04 : 1.0)

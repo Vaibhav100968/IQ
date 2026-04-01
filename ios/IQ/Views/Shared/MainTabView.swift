@@ -85,7 +85,7 @@ private struct IQCustomTabBar: View {
     var body: some View {
         VStack(spacing: 0) {
             Rectangle()
-                .fill(Color.black.opacity(0.06))
+                .fill(Color.black.opacity(0.08))
                 .frame(height: 0.5)
 
             HStack(spacing: 0) {
@@ -95,17 +95,17 @@ private struct IQCustomTabBar: View {
                     } label: {
                         VStack(spacing: 3) {
                             Image(systemName: tab.icon)
-                                .font(.system(size: visibleTab == tab ? 21 : 19, weight: .semibold))
+                                .font(.system(size: visibleTab == tab ? 22 : 19, weight: .semibold))
                                 .symbolVariant(visibleTab == tab ? .fill : .none)
-                                .foregroundColor(visibleTab == tab ? IQColors.pink : IQColors.lavender.opacity(0.88))
+                                .foregroundColor(visibleTab == tab ? IQColors.pinkDark : Color.gray.opacity(0.55))
 
                             Text(tab.title)
-                                .font(.system(size: 10, weight: visibleTab == tab ? .semibold : .regular))
-                                .foregroundColor(visibleTab == tab ? IQColors.pink : IQColors.lavender.opacity(0.82))
+                                .font(.system(size: 10, weight: visibleTab == tab ? .bold : .medium))
+                                .foregroundColor(visibleTab == tab ? IQColors.pinkDark : Color.gray.opacity(0.55))
                         }
                         .frame(maxWidth: .infinity)
-                        .padding(.top, 8)
-                        .padding(.bottom, 4)
+                        .padding(.top, 10)
+                        .padding(.bottom, 6)
                         .contentShape(Rectangle())
                     }
                     .buttonStyle(.plain)
@@ -113,6 +113,9 @@ private struct IQCustomTabBar: View {
             }
             .padding(.horizontal, 4)
         }
-        .background(.ultraThinMaterial)
+        .background(
+            Color.white
+                .shadow(color: .black.opacity(0.08), radius: 8, y: -3)
+        )
     }
 }

@@ -455,7 +455,7 @@ struct OnboardingView: View {
         }
         .padding(12)
         .background(RoundedRectangle(cornerRadius: 12)
-            .fill(Color.white.opacity(0.8))
+            .fill(Color.white)
             .shadow(color: .black.opacity(0.04), radius: 4, y: 2))
     }
 

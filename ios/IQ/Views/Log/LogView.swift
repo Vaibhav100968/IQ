@@ -556,18 +556,29 @@ struct LogAddSymptomSheet: View {
                     }
                 }
 
-                VStack(alignment: .leading, spacing: 8) {
+                VStack(alignment: .leading, spacing: 4) {
                     HStack {
                         Text("Severity")
                             .font(.subheadline.bold())
                             .foregroundStyle(.secondary)
                         Spacer()
-                        Text("\(Int(severity))/10")
+                        Text(severityLabel(severity))
                             .font(.subheadline.bold())
-                            .foregroundStyle(.primary)
+                            .foregroundColor(severityColor(severity))
                     }
-                    Slider(value: $severity, in: 1...10, step: 1)
-                        .tint(IQColors.lavenderDark)
+
+                    Picker("Severity", selection: Binding(
+                        get: { Int(severity) },
+                        set: { severity = Double($0) }
+                    )) {
+                        ForEach(1...10, id: \.self) { value in
+                            Text("\(value)")
+                                .font(.system(size: 22, weight: .bold, design: .rounded))
+                                .tag(value)
+                        }
+                    }
+                    .pickerStyle(.wheel)
+                    .frame(height: 120)
                 }
 
                 Spacer()
@@ -586,6 +597,18 @@ struct LogAddSymptomSheet: View {
                 }
             }
         }
+    }
+
+    private func severityLabel(_ v: Double) -> String {
+        if v <= 3 { return "Mild" }
+        if v <= 6 { return "Moderate" }
+        return "Severe"
+    }
+
+    private func severityColor(_ v: Double) -> Color {
+        if v <= 3 { return IQColors.riskLow }
+        if v <= 6 { return IQColors.riskModerate }
+        return IQColors.riskHigh
     }
 }
 

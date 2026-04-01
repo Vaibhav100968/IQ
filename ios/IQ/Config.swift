@@ -5,6 +5,7 @@ enum IQConfig {
     // Backend API (run `python server.py` from backend/)
     // Simulator uses localhost; physical device uses your Mac's local IP.
     // Update localIP if your Mac's IP changes (run `ifconfig en0` to check).
+    // Backend API — update localIP to your Mac's IP for physical device testing
     private static let localIP = "YOUR_LOCAL_IP"
 
     static var backendURL: String {
