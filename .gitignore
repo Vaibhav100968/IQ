@@ -22,6 +22,7 @@
 
 # misc
 .DS_Store
+.claude/
 *.pem
 
 # debug
@@ -32,6 +33,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -39,3 +41,18 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Xcode / iOS
+ios/.build/
+**/DerivedData/
+*.xcuserstate
+xcuserdata/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Python virtual environments
+ml_model/.venv/
+backend/.venv/
+**/.venv/

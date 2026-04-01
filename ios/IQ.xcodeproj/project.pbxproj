@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A00844C59AEA7F6A28D7615 /* QuickActionsFolders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074EF14A6685F255CFF8BD81 /* QuickActionsFolders.swift */; };
+		4AA358109200851B5D7F3EB4 /* ContentDiscoveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F5299919452C45CE5F9B7 /* ContentDiscoveryView.swift */; };
+		4CD5956CCAB9D2C896974AE6 /* AnalyticsGraphsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A080EA34C8BE2607A914C6F /* AnalyticsGraphsView.swift */; };
+		77CC469614AD83AA84A97C57 /* DraggableCardsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EA4EECB3F02E8B875A82EF /* DraggableCardsSection.swift */; };
+		7A7A7A7A7A7A7A7A7A7A7A7A7A7A7A7A /* IQApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* IQApp.swift */; };
+		7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B /* ContentView.swift */; };
+		7C7C7C7C7C7C7C7C7C7C7C7C7C7C7C7C /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C0C0C0C0C0C0C0C0C0C0C0C0C0C0C /* AppViewModel.swift */; };
+		7D7D7D7D7D7D7D7D7D7D7D7D7D7D7D7D /* LiquidGlassKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0D0D0D0D0D0D0D0D0D0D0D0D0D0D0D /* LiquidGlassKit.swift */; };
+		7E7E7E7E7E7E7E7E7E7E7E7E7E7E7E7E /* IQColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E0E0E0E0E0E0E0E0E0E0E0E0E0E0E /* IQColors.swift */; };
+		7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F /* IQModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F /* IQModels.swift */; };
+		8A8A8A8A8A8A8A8A8A8A8A8A8A8A8A8A /* AssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1A /* AssistantView.swift */; };
+		8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B /* HomeView.swift */; };
+		A7A7A7A7A7A7A7A7A7A7A7A7A7A7A7A7 /* HomeDashboardSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A8A8A8A8A8A8A8A8A8A8A8A8A8A8A8 /* HomeDashboardSupport.swift */; };
+		E6E6E6E6E6E6E6E6E6E6E6E6E6E6E6E6 /* RiskScoreFootnote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E7E7E7E7E7E7E7E7E7E7E7E7E7E7E7 /* RiskScoreFootnote.swift */; };
+		8C8C8C8C8C8C8C8C8C8C8C8C8C8C8C8C /* QuickActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C /* QuickActionsView.swift */; };
+		8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D /* CircularRiskDisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D /* CircularRiskDisk.swift */; };
+		8E8E8E8E8E8E8E8E8E8E8E8E8E8E8E8E /* DailySummaryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E /* DailySummaryCard.swift */; };
+		8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F /* GitHubHeatmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F /* GitHubHeatmap.swift */; };
+		9A9A9A9A9A9A9A9A9A9A9A9A9A9A9A9A /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A /* CalendarView.swift */; };
+		9B9B9B9B9B9B9B9B9B9B9B9B9B9B9B9B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B /* MainTabView.swift */; };
+		9C9C9C9C9C9C9C9C9C9C9C9C9C9C9C9C /* AppHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2C2C2C2C2C2C2C2C2C2C2C2C2C2C2C /* AppHeaderView.swift */; };
+		9D9D9D9D9D9D9D9D9D9D9D9D9D9D9D9D /* BottomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D /* BottomNavView.swift */; };
+		9E9E9E9E9E9E9E9E9E9E9E9E9E9E9E9E /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E /* FoodView.swift */; };
+		9F9F9F9F9F9F9F9F9F9F9F9F9F9F9F9F /* SymptomsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F /* SymptomsView.swift */; };
+		AA0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A3A3A3A3A3A3A3A3A3A3A3A3A3A3A /* OnboardingView.swift */; };
+		ABABABABABABABABABABABABABABABAB /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B /* AnalyticsView.swift */; };
+		ACACACACACACACACACACACACACACACACAC /* LocalStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C /* LocalStorageService.swift */; };
+		ADADADADADADADADADADADADADADADAD /* FlareEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D3D3D3D3D3D3D3D3D3D3D3D3D3D3D /* FlareEngine.swift */; };
+		AEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAE /* MockResponseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E /* MockResponseService.swift */; };
+		B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1 /* CommitsGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B /* CommitsGrid.swift */; };
+		B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2 /* FolderInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C4C4C4C4C4C4C4C4C4C4C4C4C4C4C /* FolderInteraction.swift */; };
+		B393B51A6159413FA94B6029 /* ProfileSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA105F98B150487E6ED908 /* ProfileSheet.swift */; };
+		B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D /* Config.swift */; };
+		B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4 /* MLModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E4E4E4E4E4E4E4E4E4E4E4E4E4E4E /* MLModels.swift */; };
+		B5B5B5B5B5B5B5B5B5B5B5B5B5B5B5B5 /* MLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4F4F4F4F4F4F4F4F4F4F4F4F4F4F4F /* MLService.swift */; };
+		B6B6B6B6B6B6B6B6B6B6B6B6B6B6B6B6 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5050505050505050505050505050505050 /* AuthService.swift */; };
+		B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7 /* MLInsightsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5151515151515151515151515151515151 /* MLInsightsSection.swift */; };
+		C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1 /* FilePreviewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1 /* FilePreviewSection.swift */; };
+		C2C2C2C2C2C2C2C2C2C2C2C2C2C2C2C2 /* FileCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2 /* FileCardView.swift */; };
+		C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3 /* TodayFileListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A3A3A3A3A3A3A3A3A3A3A3A3A3A3A3 /* TodayFileListView.swift */; };
+		C4C4C4C4C4C4C4C4C4C4C4C4C4C4C4C4 /* CommitsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4A4A4A4A4A4A4A4A4A4A4A4A4A4A4 /* CommitsGridView.swift */; };
+		C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5 /* ActivityCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A5A5A5A5A5A5A5A5A5A5A5A5A5A5A5 /* ActivityCalendarView.swift */; };
+		F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8 /* FlarePredictionCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F107F107F107F107F107F107F107F108 /* FlarePredictionCalendarView.swift */; };
+		C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6 /* InsightExplanationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A6A6A6A6A6A6A6A6A6A6A6A6A6A6A6 /* InsightExplanationView.swift */; };
+		E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1 /* DiscoveryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1 /* DiscoveryModels.swift */; };
+		E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2 /* DiscoveryComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2 /* DiscoveryComponents.swift */; };
+		E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3 /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3D3D3D3D3D3D3D3D3D3D3D3D3D3D3 /* ArticleDetailView.swift */; };
+		E4E4E4E4E4E4E4E4E4E4E4E4E4E4E4E4 /* ContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4 /* ContentManager.swift */; };
+		E5E5E5E5E5E5E5E5E5E5E5E5E5E5E5E5 /* CourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D5D5D5D5D5D5D5D5D5D5D5D5D5D5D5 /* CourseDetailView.swift */; };
+		F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1 /* PredictionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F101F101F101F101F101F101F101F101 /* PredictionEngine.swift */; };
+		F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2 /* PersonalizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102F102F102F102F102F102F102F102 /* PersonalizationService.swift */; };
+		F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3 /* TrendService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F103F103F103F103F103F103F103F103 /* TrendService.swift */; };
+		F4F4F4F4F4F4F4F4F4F4F4F4F4F4F4F4 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F104F104F104F104F104F104F104F104 /* LogView.swift */; };
+		C70707070707070707070707070707073 /* PreventionPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70707070707070707070707070707071 /* PreventionPlanView.swift */; };
+		C70707070707070707070707070707074 /* HealthDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70707070707070707070707070707072 /* HealthDashboardView.swift */; };
+		F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105F105F105F105F105F105F105F105 /* ProfileView.swift */; };
+		F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6 /* FlarePredictor.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F106F106F106F106F106F106F106F106 /* FlarePredictor.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04BA105F98B150487E6ED908 /* ProfileSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProfileSheet.swift; path = IQ/Views/Shared/ProfileSheet.swift; sourceTree = "<group>"; };
+		074EF14A6685F255CFF8BD81 /* QuickActionsFolders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickActionsFolders.swift; path = IQ/Views/Home/QuickActionsFolders.swift; sourceTree = "<group>"; };
+		0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* IQApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/IQApp.swift; sourceTree = SOURCE_ROOT; };
+		0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/ContentView.swift; sourceTree = SOURCE_ROOT; };
+		0C0C0C0C0C0C0C0C0C0C0C0C0C0C0C0C /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/ViewModels/AppViewModel.swift; sourceTree = SOURCE_ROOT; };
+		0D0D0D0D0D0D0D0D0D0D0D0D0D0D0D0D /* LiquidGlassKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/DesignSystem/LiquidGlassKit.swift; sourceTree = SOURCE_ROOT; };
+		0E0E0E0E0E0E0E0E0E0E0E0E0E0E0E0E /* IQColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/DesignSystem/IQColors.swift; sourceTree = SOURCE_ROOT; };
+		0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F /* IQModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Models/IQModels.swift; sourceTree = SOURCE_ROOT; };
+		1A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1A /* AssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Assistant/AssistantView.swift; sourceTree = SOURCE_ROOT; };
+		1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Home/HomeView.swift; sourceTree = SOURCE_ROOT; };
+		A8A8A8A8A8A8A8A8A8A8A8A8A8A8A8A8 /* HomeDashboardSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Home/HomeDashboardSupport.swift; sourceTree = SOURCE_ROOT; };
+		E7E7E7E7E7E7E7E7E7E7E7E7E7E7E7E7 /* RiskScoreFootnote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Shared/RiskScoreFootnote.swift; sourceTree = SOURCE_ROOT; };
+		1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C /* QuickActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Home/QuickActionsView.swift; sourceTree = SOURCE_ROOT; };
+		1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D /* CircularRiskDisk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Home/CircularRiskDisk.swift; sourceTree = SOURCE_ROOT; };
+		1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E /* DailySummaryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Home/DailySummaryCard.swift; sourceTree = SOURCE_ROOT; };
+		1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F /* GitHubHeatmap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Calendar/GitHubHeatmap.swift; sourceTree = SOURCE_ROOT; };
+		2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Calendar/CalendarView.swift; sourceTree = SOURCE_ROOT; };
+		2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Shared/MainTabView.swift; sourceTree = SOURCE_ROOT; };
+		2C2C2C2C2C2C2C2C2C2C2C2C2C2C2C2C /* AppHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Shared/AppHeaderView.swift; sourceTree = SOURCE_ROOT; };
+		2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D /* BottomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Shared/BottomNavView.swift; sourceTree = SOURCE_ROOT; };
+		2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Food/FoodView.swift; sourceTree = SOURCE_ROOT; };
+		2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F /* SymptomsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Symptoms/SymptomsView.swift; sourceTree = SOURCE_ROOT; };
+		3A3A3A3A3A3A3A3A3A3A3A3A3A3A3A3A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Onboarding/OnboardingView.swift; sourceTree = SOURCE_ROOT; };
+		3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Analytics/AnalyticsView.swift; sourceTree = SOURCE_ROOT; };
+		3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C /* LocalStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Services/LocalStorageService.swift; sourceTree = SOURCE_ROOT; };
+		3D3D3D3D3D3D3D3D3D3D3D3D3D3D3D3D /* FlareEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Services/FlareEngine.swift; sourceTree = SOURCE_ROOT; };
+		3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E /* MockResponseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Services/MockResponseService.swift; sourceTree = SOURCE_ROOT; };
+		3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		4A4A4A4A4A4A4A4A4A4A4A4A4A4A4A4A /* IQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B /* CommitsGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Home/CommitsGrid.swift; sourceTree = SOURCE_ROOT; };
+		4C4C4C4C4C4C4C4C4C4C4C4C4C4C4C4C /* FolderInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Home/FolderInteraction.swift; sourceTree = SOURCE_ROOT; };
+		4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Config.swift; sourceTree = SOURCE_ROOT; };
+		4E4E4E4E4E4E4E4E4E4E4E4E4E4E4E4E /* MLModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Models/MLModels.swift; sourceTree = SOURCE_ROOT; };
+		4F4F4F4F4F4F4F4F4F4F4F4F4F4F4F4F /* MLService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Services/MLService.swift; sourceTree = SOURCE_ROOT; };
+		5050505050505050505050505050505050 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Services/AuthService.swift; sourceTree = SOURCE_ROOT; };
+		5151515151515151515151515151515151 /* MLInsightsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Analytics/MLInsightsSection.swift; sourceTree = SOURCE_ROOT; };
+		6A080EA34C8BE2607A914C6F /* AnalyticsGraphsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnalyticsGraphsView.swift; path = IQ/Views/Analytics/AnalyticsGraphsView.swift; sourceTree = "<group>"; };
+		D3EA4EECB3F02E8B875A82EF /* DraggableCardsSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DraggableCardsSection.swift; path = IQ/Views/Home/DraggableCardsSection.swift; sourceTree = "<group>"; };
+		E41F5299919452C45CE5F9B7 /* ContentDiscoveryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentDiscoveryView.swift; path = IQ/Views/Discovery/ContentDiscoveryView.swift; sourceTree = "<group>"; };
+		A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1 /* FilePreviewSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Home/FilePreviewSection.swift; sourceTree = SOURCE_ROOT; };
+		A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2 /* FileCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Home/FileCardView.swift; sourceTree = SOURCE_ROOT; };
+		A3A3A3A3A3A3A3A3A3A3A3A3A3A3A3A3 /* TodayFileListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Home/TodayFileListView.swift; sourceTree = SOURCE_ROOT; };
+		A4A4A4A4A4A4A4A4A4A4A4A4A4A4A4A4 /* CommitsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Calendar/CommitsGridView.swift; sourceTree = SOURCE_ROOT; };
+		A5A5A5A5A5A5A5A5A5A5A5A5A5A5A5A5 /* ActivityCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Calendar/ActivityCalendarView.swift; sourceTree = SOURCE_ROOT; };
+		F107F107F107F107F107F107F107F108 /* FlarePredictionCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Calendar/FlarePredictionCalendarView.swift; sourceTree = SOURCE_ROOT; };
+		A6A6A6A6A6A6A6A6A6A6A6A6A6A6A6A6 /* InsightExplanationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Analytics/InsightExplanationView.swift; sourceTree = SOURCE_ROOT; };
+		D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1 /* DiscoveryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Discovery/DiscoveryModels.swift; sourceTree = SOURCE_ROOT; };
+		D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2 /* DiscoveryComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Discovery/DiscoveryComponents.swift; sourceTree = SOURCE_ROOT; };
+		D3D3D3D3D3D3D3D3D3D3D3D3D3D3D3D3 /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Discovery/ArticleDetailView.swift; sourceTree = SOURCE_ROOT; };
+		D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4 /* ContentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Discovery/ContentManager.swift; sourceTree = SOURCE_ROOT; };
+		D5D5D5D5D5D5D5D5D5D5D5D5D5D5D5D5 /* CourseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Discovery/CourseDetailView.swift; sourceTree = SOURCE_ROOT; };
+		F101F101F101F101F101F101F101F101 /* PredictionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Services/PredictionEngine.swift; sourceTree = SOURCE_ROOT; };
+		F102F102F102F102F102F102F102F102 /* PersonalizationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Services/PersonalizationService.swift; sourceTree = SOURCE_ROOT; };
+		F103F103F103F103F103F103F103F103 /* TrendService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Services/TrendService.swift; sourceTree = SOURCE_ROOT; };
+		F104F104F104F104F104F104F104F104 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Log/LogView.swift; sourceTree = SOURCE_ROOT; };
+		C70707070707070707070707070707071 /* PreventionPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Health/PreventionPlanView.swift; sourceTree = SOURCE_ROOT; };
+		C70707070707070707070707070707072 /* HealthDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Health/HealthDashboardView.swift; sourceTree = SOURCE_ROOT; };
+		F105F105F105F105F105F105F105F105 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQ/Views/Profile/ProfileView.swift; sourceTree = SOURCE_ROOT; };
+		F106F106F106F106F106F106F106F106 /* FlarePredictor.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = IQ/FlarePredictor.mlmodel; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A5A5A5A5A5A5A5A5A5A5A5A5A5A5A5A = {
+			isa = PBXGroup;
+			children = (
+				0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* IQApp.swift */,
+				0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B /* ContentView.swift */,
+				0C0C0C0C0C0C0C0C0C0C0C0C0C0C0C0C /* AppViewModel.swift */,
+				0D0D0D0D0D0D0D0D0D0D0D0D0D0D0D0D /* LiquidGlassKit.swift */,
+				0E0E0E0E0E0E0E0E0E0E0E0E0E0E0E0E /* IQColors.swift */,
+				0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F /* IQModels.swift */,
+				1A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1A /* AssistantView.swift */,
+				1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B /* HomeView.swift */,
+				A8A8A8A8A8A8A8A8A8A8A8A8A8A8A8A8 /* HomeDashboardSupport.swift */,
+				1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C /* QuickActionsView.swift */,
+				1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D /* CircularRiskDisk.swift */,
+				1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E /* DailySummaryCard.swift */,
+				1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F /* GitHubHeatmap.swift */,
+				2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A /* CalendarView.swift */,
+				2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B /* MainTabView.swift */,
+				E7E7E7E7E7E7E7E7E7E7E7E7E7E7E7E7 /* RiskScoreFootnote.swift */,
+				2C2C2C2C2C2C2C2C2C2C2C2C2C2C2C2C /* AppHeaderView.swift */,
+				2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D /* BottomNavView.swift */,
+				2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E /* FoodView.swift */,
+				2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F /* SymptomsView.swift */,
+				3A3A3A3A3A3A3A3A3A3A3A3A3A3A3A3A /* OnboardingView.swift */,
+				3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B /* AnalyticsView.swift */,
+				3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C /* LocalStorageService.swift */,
+				3D3D3D3D3D3D3D3D3D3D3D3D3D3D3D3D /* FlareEngine.swift */,
+				3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E /* MockResponseService.swift */,
+				3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F /* Info.plist */,
+				4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B /* CommitsGrid.swift */,
+				4C4C4C4C4C4C4C4C4C4C4C4C4C4C4C4C /* FolderInteraction.swift */,
+				4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D /* Config.swift */,
+				4E4E4E4E4E4E4E4E4E4E4E4E4E4E4E4E /* MLModels.swift */,
+				4F4F4F4F4F4F4F4F4F4F4F4F4F4F4F4F /* MLService.swift */,
+				5050505050505050505050505050505050 /* AuthService.swift */,
+				5151515151515151515151515151515151 /* MLInsightsSection.swift */,
+				E41F5299919452C45CE5F9B7 /* ContentDiscoveryView.swift */,
+				04BA105F98B150487E6ED908 /* ProfileSheet.swift */,
+				6A080EA34C8BE2607A914C6F /* AnalyticsGraphsView.swift */,
+				D3EA4EECB3F02E8B875A82EF /* DraggableCardsSection.swift */,
+				074EF14A6685F255CFF8BD81 /* QuickActionsFolders.swift */,
+				A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1A1 /* FilePreviewSection.swift */,
+				A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2 /* FileCardView.swift */,
+				A3A3A3A3A3A3A3A3A3A3A3A3A3A3A3A3 /* TodayFileListView.swift */,
+				A4A4A4A4A4A4A4A4A4A4A4A4A4A4A4A4 /* CommitsGridView.swift */,
+				A5A5A5A5A5A5A5A5A5A5A5A5A5A5A5A5 /* ActivityCalendarView.swift */,
+				F107F107F107F107F107F107F107F108 /* FlarePredictionCalendarView.swift */,
+				A6A6A6A6A6A6A6A6A6A6A6A6A6A6A6A6 /* InsightExplanationView.swift */,
+				D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1D1 /* DiscoveryModels.swift */,
+				D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2 /* DiscoveryComponents.swift */,
+				D3D3D3D3D3D3D3D3D3D3D3D3D3D3D3D3 /* ArticleDetailView.swift */,
+				D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4D4 /* ContentManager.swift */,
+				D5D5D5D5D5D5D5D5D5D5D5D5D5D5D5D5 /* CourseDetailView.swift */,
+				F101F101F101F101F101F101F101F101 /* PredictionEngine.swift */,
+				F102F102F102F102F102F102F102F102 /* PersonalizationService.swift */,
+				F103F103F103F103F103F103F103F103 /* TrendService.swift */,
+				F104F104F104F104F104F104F104F104 /* LogView.swift */,
+				C70707070707070707070707070707071 /* PreventionPlanView.swift */,
+				C70707070707070707070707070707072 /* HealthDashboardView.swift */,
+				F105F105F105F105F105F105F105F105 /* ProfileView.swift */,
+				F106F106F106F106F106F106F106F106 /* FlarePredictor.mlmodel */,
+			);
+			sourceTree = SOURCE_ROOT;
+		};
+		6A6A6A6A6A6A6A6A6A6A6A6A6A6A6A6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A4A4A4A4A4A4A4A4A4A4A4A4A4A4A4A /* IQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* IQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* Build configuration list for PBXNativeTarget "IQ" */;
+			buildPhases = (
+				CA0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* Sources */,
+				BA0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* Frameworks */,
+				DA0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQ;
+			productName = IQ;
+			productReference = 4A4A4A4A4A4A4A4A4A4A4A4A4A4A4A4A /* IQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = FC0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* Build configuration list for PBXProject "IQ" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A5A5A5A5A5A5A5A5A5A5A5A5A5A5A5A;
+			productRefGroup = 6A6A6A6A6A6A6A6A6A6A6A6A6A6A6A6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* IQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7A7A7A7A7A7A7A7A7A7A7A7A7A7A7A /* IQApp.swift in Sources */,
+				7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B /* ContentView.swift in Sources */,
+				7C7C7C7C7C7C7C7C7C7C7C7C7C7C7C7C /* AppViewModel.swift in Sources */,
+				7D7D7D7D7D7D7D7D7D7D7D7D7D7D7D7D /* LiquidGlassKit.swift in Sources */,
+				7E7E7E7E7E7E7E7E7E7E7E7E7E7E7E7E /* IQColors.swift in Sources */,
+				7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F7F /* IQModels.swift in Sources */,
+				8A8A8A8A8A8A8A8A8A8A8A8A8A8A8A8A /* AssistantView.swift in Sources */,
+				8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B8B /* HomeView.swift in Sources */,
+				A7A7A7A7A7A7A7A7A7A7A7A7A7A7A7A7 /* HomeDashboardSupport.swift in Sources */,
+				8C8C8C8C8C8C8C8C8C8C8C8C8C8C8C8C /* QuickActionsView.swift in Sources */,
+				8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D8D /* CircularRiskDisk.swift in Sources */,
+				8E8E8E8E8E8E8E8E8E8E8E8E8E8E8E8E /* DailySummaryCard.swift in Sources */,
+				8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F /* GitHubHeatmap.swift in Sources */,
+				9A9A9A9A9A9A9A9A9A9A9A9A9A9A9A9A /* CalendarView.swift in Sources */,
+				9B9B9B9B9B9B9B9B9B9B9B9B9B9B9B9B /* MainTabView.swift in Sources */,
+				E6E6E6E6E6E6E6E6E6E6E6E6E6E6E6E6 /* RiskScoreFootnote.swift in Sources */,
+				9C9C9C9C9C9C9C9C9C9C9C9C9C9C9C9C /* AppHeaderView.swift in Sources */,
+				9D9D9D9D9D9D9D9D9D9D9D9D9D9D9D9D /* BottomNavView.swift in Sources */,
+				9E9E9E9E9E9E9E9E9E9E9E9E9E9E9E9E /* FoodView.swift in Sources */,
+				9F9F9F9F9F9F9F9F9F9F9F9F9F9F9F9F /* SymptomsView.swift in Sources */,
+				AA0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* OnboardingView.swift in Sources */,
+				ABABABABABABABABABABABABABABABAB /* AnalyticsView.swift in Sources */,
+				ACACACACACACACACACACACACACACACACAC /* LocalStorageService.swift in Sources */,
+				ADADADADADADADADADADADADADADADAD /* FlareEngine.swift in Sources */,
+				AEAEAEAEAEAEAEAEAEAEAEAEAEAEAEAE /* MockResponseService.swift in Sources */,
+				B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1B1 /* CommitsGrid.swift in Sources */,
+				B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2B2 /* FolderInteraction.swift in Sources */,
+				B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3B3 /* Config.swift in Sources */,
+				B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4B4 /* MLModels.swift in Sources */,
+				B5B5B5B5B5B5B5B5B5B5B5B5B5B5B5B5 /* MLService.swift in Sources */,
+				B6B6B6B6B6B6B6B6B6B6B6B6B6B6B6B6 /* AuthService.swift in Sources */,
+				B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7B7 /* MLInsightsSection.swift in Sources */,
+				4AA358109200851B5D7F3EB4 /* ContentDiscoveryView.swift in Sources */,
+				B393B51A6159413FA94B6029 /* ProfileSheet.swift in Sources */,
+				4CD5956CCAB9D2C896974AE6 /* AnalyticsGraphsView.swift in Sources */,
+				77CC469614AD83AA84A97C57 /* DraggableCardsSection.swift in Sources */,
+				2A00844C59AEA7F6A28D7615 /* QuickActionsFolders.swift in Sources */,
+				C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1C1 /* FilePreviewSection.swift in Sources */,
+				C2C2C2C2C2C2C2C2C2C2C2C2C2C2C2C2 /* FileCardView.swift in Sources */,
+				C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3 /* TodayFileListView.swift in Sources */,
+				C4C4C4C4C4C4C4C4C4C4C4C4C4C4C4C4 /* CommitsGridView.swift in Sources */,
+				C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5C5 /* ActivityCalendarView.swift in Sources */,
+				F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8 /* FlarePredictionCalendarView.swift in Sources */,
+				C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6 /* InsightExplanationView.swift in Sources */,
+				E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1E1 /* DiscoveryModels.swift in Sources */,
+				E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2E2 /* DiscoveryComponents.swift in Sources */,
+				E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3E3 /* ArticleDetailView.swift in Sources */,
+				E4E4E4E4E4E4E4E4E4E4E4E4E4E4E4E4 /* ContentManager.swift in Sources */,
+				E5E5E5E5E5E5E5E5E5E5E5E5E5E5E5E5 /* CourseDetailView.swift in Sources */,
+				F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1F1 /* PredictionEngine.swift in Sources */,
+				F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2F2 /* PersonalizationService.swift in Sources */,
+				F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3F3 /* TrendService.swift in Sources */,
+				F4F4F4F4F4F4F4F4F4F4F4F4F4F4F4F4 /* LogView.swift in Sources */,
+				C70707070707070707070707070707073 /* PreventionPlanView.swift in Sources */,
+				C70707070707070707070707070707074 /* HealthDashboardView.swift in Sources */,
+				F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5F5 /* ProfileView.swift in Sources */,
+				F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6 /* FlarePredictor.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FD0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		FE0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		FF01A0A0A0A0A0A0A0A0A0A0A0A0A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRL6S3U2PD;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaibhav.iq;
+				PRODUCT_NAME = IQ;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FFF0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRL6S3U2PD;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaibhav.iq;
+				PRODUCT_NAME = IQ;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* Build configuration list for PBXNativeTarget "IQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* Debug */,
+				FF01A0A0A0A0A0A0A0A0A0A0A0A0A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* Build configuration list for PBXProject "IQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* Debug */,
+				FE0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB0A0A0A0A0A0A0A0A0A0A0A0A0A0A0A /* Project object */;
+}
