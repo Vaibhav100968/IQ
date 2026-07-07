@@ -1,57 +1,110 @@
-# IQ: Gut Intelligence — iOS App
+# IQ — Gut Intelligence
 
-A native iOS app for tracking gut health, food logging, and flare prediction using SwiftUI and Swift.
+> A personal full-stack project for tracking gut health, spotting food triggers, and predicting Crohn's flare risk — built with SwiftUI, Python ML, and FastAPI.
+
+**Status:** Personal / portfolio project · Not on the App Store
+
+---
+
+## About
+
+**IQ (Gut Intelligence)** started as a way to explore a real problem: people living with Crohn's disease often track symptoms and diet in scattered notes, but rarely get clear, actionable answers to the question that matters most — *how likely am I to flare soon, and why?*
+
+This repo is the full stack behind that idea:
+
+- A **native iOS app** (SwiftUI) for daily symptom and food logging, analytics, and an AI assistant
+- A **flare prediction engine** that scores risk from symptoms, diet, sleep, stress, and historical patterns
+- An **ML pipeline** (scikit-learn) with personalized cold-start learning per user
+- A **FastAPI backend** that wraps the model and syncs user history
+
+It's a learning and portfolio project — not a published product. The focus is on thoughtful UX, a clean architecture, and building something that could genuinely help someone understand their body better.
+
+### What it does
+
+| Area | Highlights |
+|------|------------|
+| **Tracking** | Symptom severity scoring, food logging with dietary tags |
+| **Prediction** | 5-component flare risk engine + ML personalization |
+| **Insights** | Activity heatmap calendar, analytics dashboard, trend charts |
+| **Design** | Liquid glass UI, circular risk visualization, native SwiftUI |
+
+### Tech stack
+
+| Layer | Tools |
+|-------|-------|
+| **iOS** | SwiftUI, MVVM, Core ML, Charts |
+| **ML** | Python, scikit-learn, Gradient Boosting, Core ML export |
+| **Backend** | FastAPI, Supabase |
+| **Design** | Custom design system, GitHub-style heatmaps |
+
+---
 
 ## Quick Start
 
-### Open the Project
+### Open the iOS project
 ```bash
 open ios/IQ.xcodeproj
 ```
 
 ### Build & Run
-1. Select target device or simulator in Xcode
-2. Press `Cmd + R` or click the Play button
-3. App will launch on device/simulator
+1. Select a simulator or device in Xcode
+2. Press `Cmd + R`
+3. The app launches with onboarding and the home risk dashboard
 
-## Project Structure
-
-- **`ios/IQ/`** — Complete native iOS app (SwiftUI)
-- **`PRD.md`** — Product requirements document
-- **`AGENTS.md`** & **`CLAUDE.md`** — Development notes
-
-## Features
-
-✅ Symptom tracking with severity scoring
-✅ Food logging with dietary tags
-✅ Flare risk prediction (AI-powered scoring engine)
-✅ Activity heatmap calendar (GitHub-style)
-✅ Analytics dashboard with trends
-✅ AI assistant chat
-✅ Local data persistence (UserDefaults)
-✅ Liquid glass UI design system
-
-## Requirements
-
-- iOS 15.0+
-- Xcode 15.4+
-- Swift 5.9
-
-## Documentation
-
-For detailed setup, architecture, and troubleshooting, see:
-- **[iOS Setup Guide](ios/README.md)** — Full documentation
-
-## Architecture Highlights
-
-- **MVVM** with `@ObservableObject` + `@Published`
-- **SwiftUI** native (no UIKit)
-- **Liquid Glass** cards for food UI
-- **Flare Engine** — 5-component risk scoring algorithm
-- **Local persistence** via UserDefaults
+### Run the ML API (optional)
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn server:app --reload
+```
 
 ---
 
-**Version:** 1.0
-**Platform:** iOS 15.0+
-**Last Updated:** 2026-03-26
+## Project Structure
+
+```
+├── ios/IQ/          # Native iOS app (SwiftUI)
+├── ml_model/        # Flare prediction model + Core ML export
+├── backend/         # FastAPI server wrapping the ML pipeline
+├── PRD.md           # Product requirements & feature spec
+└── iOS_SETUP.md     # Detailed Xcode setup guide
+```
+
+---
+
+## Features
+
+- Symptom tracking with severity scoring
+- Food logging with dietary tags
+- Flare risk prediction (rule-based engine + ML layer)
+- Activity heatmap calendar (GitHub-style)
+- Analytics dashboard with trends
+- AI assistant chat
+- Local data persistence (UserDefaults)
+- Liquid glass UI design system
+
+---
+
+## Requirements
+
+- iOS 16.0+
+- Xcode 15.4+
+- Swift 5.9
+- Python 3.9+ (for ML / backend)
+
+---
+
+## Documentation
+
+- **[iOS Setup Guide](ios/README.md)** — Architecture, Xcode setup, troubleshooting
+- **[PRD](PRD.md)** — Full product requirements document
+
+---
+
+## About the author
+
+Built by **Vaibhav** as a hands-on exploration of health-tech UX, on-device ML, and full-stack mobile development. Feedback and ideas welcome — open an issue or reach out on [GitHub](https://github.com/Vaibhav100968).
+
+---
+
+**Version:** 1.0 · **Platform:** iOS 16+ · **Last updated:** July 2026
