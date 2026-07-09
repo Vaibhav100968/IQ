@@ -37,6 +37,17 @@ It's a learning and portfolio project — not a published product. The focus is 
 | **Backend** | FastAPI, Supabase |
 | **Design** | Custom design system, GitHub-style heatmaps |
 
+### Proof at a glance
+
+| Signal | Result (local / synthetic data) |
+|--------|----------------------------------|
+| Held-out ROC-AUC | **0.71** |
+| Predict latency (p50) | **~1.8 ms** |
+| Elevated vs calm risk | **0.51** vs **0.18** |
+| What-if (sleep + lower stress) | **−8.2%** risk |
+
+Full JSON samples and methodology: **[Samples & Benchmarks](docs/SAMPLES_AND_BENCHMARKS.md)**
+
 ---
 
 ## Quick Start
@@ -51,12 +62,26 @@ open ios/IQ.xcodeproj
 2. Press `Cmd + R`
 3. The app launches with onboarding and the home risk dashboard
 
-### Run the ML API (optional)
+### Run the ML API
 ```bash
 cd backend
+python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-uvicorn server:app --reload
+cp .env.example .env   # optional: add Supabase keys
+uvicorn server:app --reload --port 8000
 ```
+
+Detailed env vars, Supabase schema, and troubleshooting: **[Backend Setup](docs/BACKEND_SETUP.md)**
+
+### Run ML tests
+```bash
+cd ml_model
+python3 -m venv .venv && source .venv/bin/activate
+pip install pandas scikit-learn numpy pytest
+pytest tests/ -q
+```
+
+Full QA checklist (API curls + iOS manual script): **[Testing & QA](docs/TESTING.md)**
 
 ---
 
@@ -64,8 +89,9 @@ uvicorn server:app --reload
 
 ```
 ├── ios/IQ/          # Native iOS app (SwiftUI)
-├── ml_model/        # Flare prediction model + Core ML export
+├── ml_model/        # Flare prediction model + Core ML export + pytest suite
 ├── backend/         # FastAPI server wrapping the ML pipeline
+├── docs/            # Testing, backend setup, samples & benchmarks
 ├── PRD.md           # Product requirements & feature spec
 └── iOS_SETUP.md     # Detailed Xcode setup guide
 ```
@@ -96,8 +122,13 @@ uvicorn server:app --reload
 
 ## Documentation
 
-- **[iOS Setup Guide](ios/README.md)** — Architecture, Xcode setup, troubleshooting
-- **[PRD](PRD.md)** — Full product requirements document
+| Doc | What it covers |
+|-----|----------------|
+| **[Backend Setup](docs/BACKEND_SETUP.md)** | venv, dependencies, `.env`, Supabase `logs` schema, API surface |
+| **[Testing & QA](docs/TESTING.md)** | pytest, API smoke curls, iOS manual QA, quality gates |
+| **[Samples & Benchmarks](docs/SAMPLES_AND_BENCHMARKS.md)** | Accuracy metrics, latency, example predict/simulate JSON |
+| **[iOS Setup Guide](ios/README.md)** | Architecture, Xcode setup, troubleshooting |
+| **[PRD](PRD.md)** | Full product requirements document |
 
 ---
 
